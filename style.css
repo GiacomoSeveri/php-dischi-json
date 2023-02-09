@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #06131F;
+    /* padding: 10px; */
+    height: 10vh;
+}
+
+img{
+    filter: invert(0.5);
+    width: 200px;
+    /* margin: 5px; */
+}
+
+main{
+    background-color: #1D2D3C;
+    height: 90vh;
+}
