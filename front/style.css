@@ -8,24 +8,28 @@ body{
 
 header{
     background-color: #06131F;
-    /* padding: 10px; */
     height: 10vh;
 }
 
-img{
-    filter: invert(0.5);
-    width: 200px;
-    /* margin: 5px; */
+.logo{
+    cursor: pointer;
+    width: 60px;
 }
 
 main{
     background-color: #1D2D3C;
-    /* height: 90vh; */
-    color: #fff;
 }
 
 .custom-card{
-    width: calc(100% / 3);
-    height: 150px;
-    background-color: #06131F;
+    background-color: #112030;
+}
+
+.album-cover{
+    width: 200px;
+    cursor: pointer;
+    border: solid 2px #fff;
+}
+
+.album-cover:hover{
+    border: solid 2px #18D860;
 }

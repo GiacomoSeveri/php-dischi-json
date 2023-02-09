@@ -22,18 +22,17 @@
 <body>
     <header class="">
         <figure class="container pt-3">
-            <img src="img/logo.svg" alt="logo spotify">
+            <img src="img/logo.jpg" alt="logo spotify" class="logo">
         </figure>
     </header>
     <main>
-        <div class="container p-5" id="app">
-            <div v-for="(disc, i) in discs" class="d-flex row row-cols-4" :kay="i">
-                <div class="col-4 custom-card d-flex justify-content-center align-items-center flex-column m-3">
-                    <!-- <img :src="`{{disc.poster}}`" alt=""> -->
-                    <span>{{ disc.title }}</span>
+        <div class="container pt-5" id="app">
+            <div class="d-flex flex-wrap justify-content-center align-items-center row-cols-4" :kay="i">
+                <div v-for="(disc, i) in discs" class="custom-card d-flex justify-content-center align-items-center flex-column m-3 p-3">
+                    <img :src="`${disc.poster}`" class="my-3 album-cover">
+                    <span class="fw-bold">{{ disc.title }}</span>
                     <span>{{ disc.author }}</span>
-                    <span>{{ disc.year }}</span>
-                    <span>{{ disc.genre }}</span>
+                    <span class="fw-bold">{{ disc.year }}</span>
                 </div>
             </div>
         </div>

@@ -68,5 +68,19 @@
     "year": 1987,
     "poster": "https://m.media-amazon.com/images/I/51-c9KBefDL._AC_.jpg",
     "genre": "Pop"
+  },
+  {
+    "title": "Faiv",
+    "author": "Dani Faiv",
+    "year": 2022,
+    "poster": "https://m.media-amazon.com/images/I/510zfiBaGqL._SX425_.jpg",
+    "genre": "Hip-Hop"
+  },
+  {
+    "title": "The Illest, Vol.3",
+    "author": "Mostro",
+    "year": 2023,
+    "poster": "https://m.media-amazon.com/images/I/91SQUote2rL._SX425_.jpg",
+    "genre": "Rap"
   }
 ]
