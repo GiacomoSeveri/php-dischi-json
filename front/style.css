@@ -2,6 +2,8 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #fff;
+
 }
 
 header{
@@ -19,4 +21,9 @@ img{
 main{
     background-color: #1D2D3C;
     height: 90vh;
+    color: #fff;
+}
+
+ul{
+    list-style-type: none;
 }
