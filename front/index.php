@@ -28,8 +28,12 @@
     <main>
         <div class="container p-5" id="app">
             <div v-for="(disc, i) in discs" class="d-flex row row-cols-4" :kay="i">
-                <div class="col-4">
+                <div class="col-4 custom-card d-flex justify-content-center align-items-center flex-column m-3">
+                    <!-- <img :src="`{{disc.poster}}`" alt=""> -->
                     <span>{{ disc.title }}</span>
+                    <span>{{ disc.author }}</span>
+                    <span>{{ disc.year }}</span>
+                    <span>{{ disc.genre }}</span>
                 </div>
             </div>
         </div>

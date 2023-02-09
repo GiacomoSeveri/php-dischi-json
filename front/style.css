@@ -20,10 +20,12 @@ img{
 
 main{
     background-color: #1D2D3C;
-    height: 90vh;
+    /* height: 90vh; */
     color: #fff;
 }
 
-ul{
-    list-style-type: none;
+.custom-card{
+    width: calc(100% / 3);
+    height: 150px;
+    background-color: #06131F;
 }
